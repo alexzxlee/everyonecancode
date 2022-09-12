@@ -1,0 +1,105 @@
+html body {
+    font-family: 'Ubuntu', sans-serif;
+    color: skyblue;
+    background: black;
+    text-align: center;
+}
+
+p:hover {color: yellow;}
+p:visited {color: purple;}
+a:hover {color: green;}
+a:visited {color: purple;}
+
+img {opacity: 0.7;filter: alpha(opacity=70);}
+img:hover {opacity: 1.0;filter: alpha(opacity=100);}
+
+.container {font-size: 30px; color: sandybrown; font-family: 'Acme', sans-serif;}
+.row {font-size: 15px; color: skyblue; font-family: 'Cairo', sans-serif;}
+.alex {font-size: 50px; color: mediumturquoise; font-family: 'Acme', sans-serif;}
+.end {font-size: 15px; color: white; font-family: 'Cairo', sans-serif;}
+#f {font-size: 14px; color: grey; font-family: 'Saira Semi Condensed', sans-serif;}
+
+#linkedin {
+	width:84px;
+	height:84px;
+	background:url('images/icons.png') -336px -84px;
+}
+#facebook{
+	width:84px;
+	height:84px;
+	background:url('images/icons.png') 0px -84px;
+}
+#twitter{
+	width:84px;
+	height:84px;
+	background:url('images/icons.png') -672px -84px;
+	background-repeat: no-repeat;
+}
+#google{
+	width:84px;
+	height:84px;
+	background:url('images/icons.png') -252px -84px;
+	background-repeat: no-repeat;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Cairo', sans-serif;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: sandybrown;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 60px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: steelblue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
