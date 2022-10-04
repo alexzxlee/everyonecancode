@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>Everyone Can Code 2</title>
+	<title>Everyone Can Code</title>
 	<!--<link rel="stylesheet" type="text/css" href="">-->
 
 	<link rel="stylesheet" href="{{ URL::asset('projects.css'); }}">
